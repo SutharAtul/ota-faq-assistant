@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "rootDir": "src",
+    "outDir": "dist"
+  },
+  "references": [
+    { "path": "../contracts" }
+  ],
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules", "dist"]
+}
+

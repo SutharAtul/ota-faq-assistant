@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  // Root solution tsconfig — does not compile directly, only references workspaces
+  "files": [],
+  "references": [
+    { "path": "packages/contracts" },
+    { "path": "packages/core" },
+    { "path": "packages/provider-adapters" },
+    { "path": "packages/react-sdk" }
+  ]
+}
+

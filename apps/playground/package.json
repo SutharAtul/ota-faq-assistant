@@ -1,0 +1,12 @@
+{
+  "name": "@ota-faq-assistant/playground",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "echo \"Playground: configure Vite here\"",
+    "build": "echo \"Playground: configure build here\"",
+    "preview": "echo \"Playground: configure preview here\""
+  }
+}
+
